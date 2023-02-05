@@ -5,7 +5,7 @@ As atividades serão listadas em diretórios com suas respectivas datas de entre
 Integrantes: 
 - André Bernardo
 - Cesar August
-- Fábio
+- Fábio Luiz
 - Felipe Celeri
 - Gracielle Oliveira
 - Matheus Alves
