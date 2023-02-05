@@ -7,6 +7,6 @@ Integrantes:
 - Cesar August
 - Fábio
 - Felipe Celeri
-- Gracielle
+- Gracielle Oliveira
 - Matheus Alves
 - Renan Abreu
