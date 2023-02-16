@@ -1,8 +1,16 @@
 version: '3.7'
 services:
-  nginx:
-    image: nginx:1.21
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'db'
+      MYSQL_USER: 'user'
+      MYSQL_PASSWORD: 'fit2023'
+      MYSQL_ROOT_PASSWORD: 'fit2023'
     ports:
-      - "80:80"
+      - '3306:3306'
+    expose:
+      - '3306'
     volumes:
-      - ./html:/usr/share/nginx/html:ro
+      - ./mysql:/var/lib/mysql
